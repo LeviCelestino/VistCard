@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200&family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: #48C5CE;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.FormContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    margin-left: auto;
+}
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 16px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+}
+section{
+    padding: 20px;
+    background-image: url('../assets/people.jpg');
+    background-size: cover;
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url('../assets/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px) center;
+}
+.discription{
+    color: white;
+    max-width: 40%;
+    display: inline-block;
+    margin-left: 40px;
+    text-align: left;
+}  
+.picture{
+    width: 160px;
+}
+.discription p, .discription h3{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+.discription h3{
+  font-size: 24px;  
+}
